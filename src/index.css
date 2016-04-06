@@ -1,0 +1,12 @@
+.container {
+  width: 100px;
+  height: 50px;
+}
+.line {
+  fill: none;
+  stroke: #f96816;
+  stroke-width: 3px;
+}
+.bar {
+  fill: #fff;
+}

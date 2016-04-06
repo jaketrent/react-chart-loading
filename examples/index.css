@@ -1,0 +1,35 @@
+:global body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #2D2D2D;
+  color: #fff;
+  font-family: sans-serif;
+}
+.root {
+  padding: 20px;
+}
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+.example {
+  margin: 0 10px 10px 0;
+}
+.title {
+  font-size: 16px;
+  font-weight: 100;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #413e3e;
+  height: 200px;
+  width: 300px;
+}
+.chartLine {
+  composes: line from "react-chart-loading/index.css";
+  stroke: #e61ff7;
+}
