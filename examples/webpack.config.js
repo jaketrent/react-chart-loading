@@ -2,11 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const postcss = require('postcss')
 const postcssCssnext = require('postcss-cssnext')
-// const postcssImport = require('postcss-import')
-// const postcssUrl = require('postcss-url')
 const webpack = require('webpack')
-
-console.log("path.join(__dirname, '..', 'src')", path.join(__dirname, '..', 'src'))
 
 module.exports = {
 
@@ -34,8 +30,6 @@ module.exports = {
   },
 
   postcss: [
-    // postcssImport,
-    // postcssUrl({ url: url => url }),
     postcssCssnext
   ]
 
