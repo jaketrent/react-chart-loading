@@ -1,6 +1,6 @@
 {
   "name": "react-chart-loading",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Loading spinner for charts",
   "main": "lib/index",
   "jsnext:main": "es6/index",
