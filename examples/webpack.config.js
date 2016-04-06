@@ -1,7 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const postcss = require('postcss')
-const postcssCssnext = require('postcss-cssnext')
 const webpack = require('webpack')
 
 module.exports = {
@@ -27,10 +25,6 @@ module.exports = {
     alias: {
       'react-chart-loading': path.join(__dirname, '..', 'src')
     }
-  },
-
-  postcss: [
-    postcssCssnext
-  ]
+  }
 
 }
